@@ -9,7 +9,7 @@ import xacro
 def generate_launch_description():
 
     # Specify the name of the package and path to xacro file within the package
-    pkg_name = 'kapibara'
+    pkg_name = 'kapibara_robot'
     file_subpath = 'description/kapibara.urdf.xacro'
     
     package_share_dir = get_package_share_directory(pkg_name)
