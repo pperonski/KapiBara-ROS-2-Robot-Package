@@ -19,8 +19,6 @@ find_package(nav_msgs REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-ament_target_dependencies(atractor rclcpp nav_msgs sensor_msgs geometry_msgs std_msgs)
-
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -34,7 +32,7 @@ if(BUILD_TESTING)
 endif()
 
 install(
-  DIRECTORY description meshes config launch model scenes
+  DIRECTORY description meshes config launch scenes
   DESTINATION share/${PROJECT_NAME}
 )
 
