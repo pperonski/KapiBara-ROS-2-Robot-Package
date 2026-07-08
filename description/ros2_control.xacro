@@ -84,7 +84,7 @@
             <hardware>
                 <plugin>mujoco_ros2_control/MujocoSystemInterface</plugin>
 
-                <param name="mujoco_model">$(find kapibara)/scenes/scene.xml</param>
+                <param name="mujoco_model">$(find kapibara_robot)/scenes/scene.xml</param>
             </hardware>
 
             <sensor name="kapibara_imu">
