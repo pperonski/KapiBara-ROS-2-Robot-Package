@@ -1,3 +1,16 @@
+/**:
+  ros__parameters::
+    mujoco_plugins:
+      kinect:
+          type: mujoco_ros2_control_plugins/CameraPlugin
+          camera_publish_rate: 30.0
+          camera:
+            policy: streaming
+            frame_name: camera_color_optical_frame
+            info_topic: color/camera_info
+            image_topic: color/image_raw
+            depth_topic: depth/image_raw
+
 KapiBara/controller_manager:
   ros__parameters:
     update_rate: 100

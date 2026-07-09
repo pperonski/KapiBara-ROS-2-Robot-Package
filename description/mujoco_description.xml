@@ -17,6 +17,11 @@
       <geom pos="-0.027 0 0.1" quat="0 0 0 1" type="mesh" contype="1" conaffinity="1" group="1" density="0" rgba="1 0.3 0.1 1" mesh="Top"/>
       <geom size="0.005 0.015 0.015" pos="0.073 0 0.2" quat="-1 0 0 0" type="box" contype="1" conaffinity="1" group="1" density="0" rgba="0 0 0 1"/>
 
+      <body name="camera" pos="-0.10 0.0 0.15" quat="0 0 0 1">
+        <geom type="box" size="0.005 0.015 0.015" rgba="0 0 0 1"/>
+        
+        <camera name="camera" fovy="58" mode="fixed" pos="0 0 0" quat="0.5 0.5 -0.5 -0.5"/>
+      </body>
       <body name="KapiBara_left_ear" pos="0.063 -0.075 0.14" quat="0 -0.707107 0 0.707107">
         <inertial pos="0 0 0" quat="0.5 0.5 -0.5 0.5" mass="0.1" diaginertia="2.88e-05 1.52333e-05 1.52333e-05"/>
         <joint name="KapiBara_left_ear_joint" pos="0 0 0" axis="0 -1 0" range="0 3.14159" actuatorfrcrange="-1 1"/>
