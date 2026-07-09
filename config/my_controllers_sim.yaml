@@ -19,7 +19,6 @@ KapiBara/imu_sensor_broadcaster:
   ros__parameters:
     sensor_name: kapibara_imu # Must match URDF <sensor name="...">
     frame_id: KapiBara_imu_link # The TF frame it will publish data to
-    topic_name: imu/data
 
 KapiBara/motors:
   ros__parameters:
