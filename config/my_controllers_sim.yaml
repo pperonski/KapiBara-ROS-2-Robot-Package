@@ -1,7 +1,7 @@
 /**:
-  ros__parameters::
+  ros__parameters:
     mujoco_plugins:
-      kinect:
+      mujoco_camera_plugin:
           type: mujoco_ros2_control_plugins/CameraPlugin
           camera_publish_rate: 30.0
           camera:
